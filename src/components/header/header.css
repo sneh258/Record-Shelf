@@ -1,0 +1,29 @@
+.header{
+    border: 2px solid black;
+    height: 7vh;
+    display: flex;
+    background-color: #38497E;
+    align-items: center;
+    font-size: small;
+}
+
+#one{
+    color: rgb(255, 255, 255);
+    font-weight:100;
+    margin-right: 7px;
+    padding-left: 15px;
+    font-family: system-ui;
+
+}
+#two{
+    color: rgb(255, 255, 255);
+    margin-right: 7px;
+    font-weight:800
+
+}
+#three{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: system-ui;
+
+}

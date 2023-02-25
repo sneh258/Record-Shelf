@@ -1,0 +1,15 @@
+
+.genre_header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    
+   
+}
+
+.background{
+    background-color: #f5f5f5;
+   /* border: 2px solid black; */
+   margin: 35px;
+    
+}
