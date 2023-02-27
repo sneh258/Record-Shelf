@@ -1,8 +1,8 @@
 .card {
   margin: 20px;
-  border: 2px solid black;
-  width: 17vw;
-  height: 45vh;
+  /* border: 2px solid black; */
+  width: 270px;
+  height: 350px;
   background-color: #d5d5d5;
   border-radius: 25px 25px;
   
@@ -28,8 +28,8 @@
   /* border: 2px solid black; */
   margin: 50px 80px 0 70px;
   border-radius: 50%;
-  width: 15vw;
-  height: 25vh;
+  width: 150px;
+  height: 150px;
 }
 
 .title{
@@ -66,10 +66,7 @@
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
-.heart{
-    display: flex;
-    justify-content: flex-start;
-}
+
 .heart{
   display: flex;
   justify-content: flex-end;
@@ -79,6 +76,17 @@
   padding-top: 0px;
   margin-top: -3vw;
   cursor: pointer;
+  position: relative;
   
+}
+
+.heart img{
+  width: 60px;
+}
+
+.count{
+  position: absolute;
+  padding-right: 20px;
+  padding-top: 5px;
 }
 

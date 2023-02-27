@@ -53,8 +53,6 @@ export default function PageTwoBody({ post }) {
         <div className="content_card">
           <div className="title">
             <p id="one">{post.name}</p>
-            {/* </div>
-          <div className="description"> */}
             <p id="two">{post.artist.name}</p>
           </div>
         </div>
