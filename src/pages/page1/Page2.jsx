@@ -9,7 +9,7 @@ export default function Page2() {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="page2Header">
       <Header />
       <div className="header_page2">
         <h1>all songs</h1>

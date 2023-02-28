@@ -1,3 +1,8 @@
+.page2Header{
+    display: flex;
+    flex-direction: column;
+}
+
 .header_page2{
     display: flex;
     justify-content: space-around;
@@ -7,4 +12,16 @@
 
 img{
     cursor: pointer;
+}
+
+@media (max-width:600px)
+{
+    .header_page2{
+       
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    }
 }
